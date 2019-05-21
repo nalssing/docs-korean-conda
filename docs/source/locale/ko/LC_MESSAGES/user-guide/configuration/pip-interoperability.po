@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:3
+msgid "Improving interoperability with pip"
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:5
+msgid ""
+"The conda 4.6.0 release added improved support for interoperability "
+"between conda and pip. This feature is still experimental and is "
+"therefore off by default."
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:8
+msgid ""
+"With this interoperability, conda can use pip-installed packages to "
+"satisfy dependencies, cleanly remove pip-installed software, and replace "
+"them with conda packages when appropriate."
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:13
+msgid "If you’d like to try the feature, you can set this ``.condarc`` setting::"
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:19
+msgid "Setting ``pip_interop_enabled`` to ``True`` may slow down conda."
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:21
+msgid ""
+"Even without activating this feature, conda now understands pip metadata "
+"more intelligently. For example, if we create an environment with conda::"
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:26
+msgid "Then we update imagesize in that environment using pip::"
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:31
+msgid ""
+"Prior to conda 4.6.0, the ``conda list`` command returned ambiguous "
+"results::"
+msgstr ""
+
+#: ../../source/user-guide/configuration/pip-interoperability.rst:37
+msgid "Conda 4.6.0 now shows only one entry for imagesize (the newer pip entry)::"
+msgstr ""
+

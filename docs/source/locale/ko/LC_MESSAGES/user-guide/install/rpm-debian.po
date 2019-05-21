@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/install/rpm-debian.rst:3
+msgid "RPM and Debian Repositories for Miniconda"
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:4
+msgid ""
+"Conda, the package manager from Anaconda, is now available as either a "
+"RedHat RPM or as a Debian package. The packages are the equivalent to the"
+" Miniconda installer which only contains conda and its dependencies. You "
+"can use yum or apt-get to install, uninstall and manage conda on your "
+"system. To install conda, follow the instructions for your Linux "
+"distribution."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:6
+msgid ""
+"To install the RPM on RedHat, CentOS, Fedora distributions, and other "
+"RPM-based distributions such as openSUSE, download the gpg key and add a "
+"repository configuration file for conda."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:23
+msgid "Conda is ready to install on your RPM-based distribution."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:59
+msgid ""
+"To install on Debian-based Linux distributions such as Ubuntu, download "
+"the public gpg key and add the conda repository to the sources list."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:72
+msgid "Conda is ready to install on your Debian-based distribution."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:97
+msgid "Check to see if the installation is successful by typing:"
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:106
+msgid ""
+"Installing conda packages with the system package manager makes it very "
+"easy to distribute conda across a cluster of machines running Linux "
+"without having to worry about any non privileged user modifying the "
+"installation. Any non privileged user simply needs to run "
+"`source/opt/conda/etc/profile.d/conda.sh` to use conda."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:108
+msgid ""
+"Administrators can also distribute a .condarc file at /opt/conda/.condarc"
+" so that a predefined configuration for channels, package cache directory"
+" and environment locations is pre-seeded to all users in a large "
+"organization. A sample configuration could look like:"
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:121
+msgid ""
+"These RPM and Debian packages provide another way to set up conda inside "
+"a Docker container."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:123
+msgid ""
+"It is recommended to use this installation in a read-only manner and "
+"upgrade conda using the respective package manager only."
+msgstr ""
+
+#: ../../source/user-guide/install/rpm-debian.rst:125
+msgid ""
+"If you’re new to conda, check out the documentation at "
+"https://conda.io/docs/"
+msgstr ""
+

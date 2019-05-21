@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/api/index.rst:2
+msgid "Conda Python API"
+msgstr ""
+
+#: ../../source/api/index.rst:4
+msgid ""
+"As of conda 4.4, conda can be installed in any environment, not just "
+"environments with names starting with _ (underscore). That change was "
+"made, in part, so that conda can be used as a Python library."
+msgstr ""
+
+#: ../../source/api/index.rst:6
+msgid "There are three supported public modules. We support:"
+msgstr ""
+
+#: ../../source/api/index.rst:8
+msgid "import conda.cli.python_api"
+msgstr ""
+
+#: ../../source/api/index.rst:9
+msgid "import conda.api"
+msgstr ""
+
+#: ../../source/api/index.rst:10
+msgid "import conda.exports"
+msgstr ""
+
+#: ../../source/api/index.rst:12
+msgid ""
+"The first two should have very long-term stability. The third is "
+"guaranteed to be stable throughout the lifetime of a feature release "
+"series--i.e. minor version number."
+msgstr ""
+
+#: ../../source/api/index.rst:14
+msgid ""
+"As of conda 4.5, we do not support ``pip install conda``. However, we are"
+" considering that as a supported bootstrap method in the future."
+msgstr ""
+
+#: ../../source/api/index.rst:17
+msgid "Contents:"
+msgstr ""
+

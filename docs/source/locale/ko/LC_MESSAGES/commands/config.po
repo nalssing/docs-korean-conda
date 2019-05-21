@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/commands/config.rst:2
+msgid "``conda config``"
+msgstr ""
+
+#: ../../None:1
+msgid "Report all output as json. Suitable for using conda programmatically."
+msgstr ""
+
+#: ../../None:1
+msgid "Use once for info, twice for debug, three times for trace."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not display progress bar."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Without one of these flags, the user config file at "
+"'/Users/joelkim/.condarc' is used."
+msgstr ""
+
+#: ../../None:1
+msgid "Write to the system .condarc file at '/Users/joelkim/anaconda3/.condarc'."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Write to the active conda environment .condarc file "
+"(/Users/joelkim/anaconda3). If no environment is active, write to the "
+"user config file (/Users/joelkim/.condarc)."
+msgstr ""
+
+#: ../../None:1
+msgid "Write to the given file."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Display configuration values as calculated and compiled. If no arguments "
+"given, show information for all configuration values."
+msgstr ""
+
+#: ../../None:1
+msgid "Display all identified configuration sources."
+msgstr ""
+
+#: ../../None:1
+msgid "Validate all configuration sources."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Describe given configuration parameters. If no arguments given, show "
+"information for all configuration parameters."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Write the default configuration to a file. Equivalent to `conda config "
+"--describe > ~/.condarc`."
+msgstr ""
+
+#: ../../None:1
+msgid "Get a configuration value."
+msgstr ""
+
+#: ../../None:1
+msgid "Add one configuration value to the end of a list key."
+msgstr ""
+
+#: ../../None:1
+msgid "Add one configuration value to the beginning of a list key."
+msgstr ""
+
+#: ../../None:1
+msgid "Set a boolean or string key"
+msgstr ""
+
+#: ../../None:1
+msgid "Remove a configuration value from a list key. This removes"
+msgstr ""
+
+#: ../../None:2
+msgid "all instances of the value."
+msgstr ""
+
+#: ../../None:1
+msgid "Remove a configuration key (and all its values)."
+msgstr ""
+
+#: ../../None:1
+msgid "Apply configuration information given in yaml format piped through stdin."
+msgstr ""
+

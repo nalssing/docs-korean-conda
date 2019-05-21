@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:3
+msgid "Managing virtual packages"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:9
+msgid ""
+"\"Virtual\" packages are injected into the conda solver to allow real "
+"packages to depend on features present on the system that cannot be "
+"managed directly by conda, like system driver versions or CPU features.  "
+"Virtual packages are not real packages and not displayed by ``conda "
+"list``.  Instead ``conda`` runs a small bit of code to detect the "
+"presence or absence of the system feature that corresponds to the "
+"package.  The currently supported list of virtual packages includes:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:16
+msgid "``_cuda``: Maximum version of CUDA supported by the display driver"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:18
+msgid "Other virtual packages will be added in future conda releases."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:22
+msgid "Listing detected virtual packages"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:24
+msgid "Use the Terminal or an Anaconda Prompt for the following steps."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:26
+msgid "To see the list of detected virtual packages, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:32
+msgid ""
+"If a package is detected, you will see it listed in the ``virtual "
+"packages`` section, as shown in this example::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:63
+msgid "Overriding detected packages"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:65
+msgid ""
+"For troubleshooting, it is possible to override virtual package detection"
+" using an environment variable.  Supported variables include:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-virtual.rst:68
+msgid ""
+"``CONDA_OVERRIDE_CUDA`` - CUDA version number or set to ``\"\"`` for no "
+"CUDA detected."
+msgstr ""
+

@@ -183,3 +183,8 @@ texinfo_documents = [
      author, 'conda', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+
+locale_dirs = ['locale/']
+gettext_compact = False
+

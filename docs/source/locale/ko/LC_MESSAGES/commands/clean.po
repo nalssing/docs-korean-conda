@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/commands/clean.rst:2
+msgid "``conda clean``"
+msgstr ""
+
+#: ../../None:1
+msgid "Remove index cache, lock files, unused cache packages, and tarballs."
+msgstr ""
+
+#: ../../None:1
+msgid "Remove index cache."
+msgstr ""
+
+#: ../../None:1
+msgid "Remove all conda lock files."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Remove unused packages from writable package caches. WARNING: This does "
+"not check for packages installed using symlinks back to the package "
+"cache."
+msgstr ""
+
+#: ../../None:1
+msgid "Remove cached package tarballs."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Remove *all* writable package caches. This option is not included with "
+"the --all flag. WARNING: This will break environments with packages "
+"installed using symlinks back to the package cache."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Remove temporary files that could not be deleted earlier due to being in-"
+"use.  Argument is path(s) to prefix(es) where files should be found and "
+"removed."
+msgstr ""
+
+#: ../../None:1
+msgid "Only display what would have been done."
+msgstr ""
+
+#: ../../None:1
+msgid "Report all output as json. Suitable for using conda programmatically."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not display progress bar."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Can be used multiple times. Once for INFO, twice for DEBUG, three times "
+"for TRACE."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not ask for confirmation."
+msgstr ""
+

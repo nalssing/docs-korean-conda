@@ -1,0 +1,1096 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/troubleshooting.rst:3
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:11
+msgid "Using Conda in Windows Batch script exits early"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:13
+msgid ""
+"In conda 4.6+, the way that you interact with conda goes through a batch "
+"script (``%PREFIX%\\condabin\\conda.bat``). Unfortunately, this means "
+"it's a little complicated to use conda from other batch scripts.  When "
+"using batch scripts from within batch scripts, you must prefix your "
+"command with ``CALL``.  If you do not do this, your batch script that "
+"calls conda will exit immediately after the conda usage.  In other words,"
+" if you write this in a .bat file:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:24
+msgid ""
+"Neither the activation, nor the echo will happen.  You must write this in"
+" your batch script:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:32
+msgid ""
+"This is known behavior with cmd.exe, and we have not found any way to "
+"change it.  https://stackoverflow.com/questions/4798879/how-do-i-run-a"
+"-batch-script-from-within-a-batch-script/4798965"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:36
+msgid "Numpy MKL library load failed"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:38
+msgid "Error messages like"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:40
+msgid "Intel MKL FATAL ERROR: Cannot load mkl_intel_thread.dll"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:42
+msgid "or"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:44
+msgid "The ordinal 241 could not be located in the the dynamic link library"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:47
+#: ../../source/user-guide/troubleshooting.rst:139
+#: ../../source/user-guide/troubleshooting.rst:197
+#: ../../source/user-guide/troubleshooting.rst:282
+#: ../../source/user-guide/troubleshooting.rst:334
+#: ../../source/user-guide/troubleshooting.rst:379
+#: ../../source/user-guide/troubleshooting.rst:400
+#: ../../source/user-guide/troubleshooting.rst:432
+#: ../../source/user-guide/troubleshooting.rst:449
+#: ../../source/user-guide/troubleshooting.rst:470
+#: ../../source/user-guide/troubleshooting.rst:507
+#: ../../source/user-guide/troubleshooting.rst:540
+#: ../../source/user-guide/troubleshooting.rst:590
+#: ../../source/user-guide/troubleshooting.rst:623
+#: ../../source/user-guide/troubleshooting.rst:675
+#: ../../source/user-guide/troubleshooting.rst:714
+#: ../../source/user-guide/troubleshooting.rst:775
+#: ../../source/user-guide/troubleshooting.rst:905
+#: ../../source/user-guide/troubleshooting.rst:924
+#: ../../source/user-guide/troubleshooting.rst:949
+#: ../../source/user-guide/troubleshooting.rst:967
+msgid "Cause"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:49
+msgid ""
+"Numpy is unable to load the correct MKL or Intel OpenMP runtime "
+"libraries. This is almost always caused by one of two things:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:52
+msgid "The environment with numpy has not been activated."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:53
+msgid ""
+"Another software vendor has installed MKL or Intel OpenMP "
+"(libiomp5md.dll) files into the C:\\\\Windows\\\\System32 folder. These "
+"files are being loaded before Anaconda's and they're not compatible."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:58
+#: ../../source/user-guide/troubleshooting.rst:187
+#: ../../source/user-guide/troubleshooting.rst:203
+#: ../../source/user-guide/troubleshooting.rst:290
+#: ../../source/user-guide/troubleshooting.rst:323
+#: ../../source/user-guide/troubleshooting.rst:342
+#: ../../source/user-guide/troubleshooting.rst:384
+#: ../../source/user-guide/troubleshooting.rst:411
+#: ../../source/user-guide/troubleshooting.rst:443
+#: ../../source/user-guide/troubleshooting.rst:464
+#: ../../source/user-guide/troubleshooting.rst:481
+#: ../../source/user-guide/troubleshooting.rst:512
+#: ../../source/user-guide/troubleshooting.rst:547
+#: ../../source/user-guide/troubleshooting.rst:596
+#: ../../source/user-guide/troubleshooting.rst:639
+#: ../../source/user-guide/troubleshooting.rst:687
+#: ../../source/user-guide/troubleshooting.rst:735
+#: ../../source/user-guide/troubleshooting.rst:783
+#: ../../source/user-guide/troubleshooting.rst:914
+#: ../../source/user-guide/troubleshooting.rst:936
+#: ../../source/user-guide/troubleshooting.rst:955
+#: ../../source/user-guide/troubleshooting.rst:972
+msgid "Solution"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:60
+msgid ""
+"If you are not activating your environments, start with doing that. "
+"There's more info at :ref:`Activating environments <activate-env>`. If "
+"you are still stuck, you need to consider more drastic measures."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:64
+msgid ""
+"Remove any MKL-related files from C:\\\\Windows\\\\System32. We recommend"
+" renaming them to add .bak to the filename to effectively hide them. "
+"Observe if any other software breaks. Try moving the DLL files alongside "
+"the .exe of the software that broke. If it works again, you can keep "
+"things in the moved state - Anaconda doesn't need MKL in System32, and no"
+" other software should need it either. If you identify software that is "
+"installing software here, please contact the creators of that software. "
+"Inform them that their practice of installing MKL to a global location is"
+" fragile and is breaking other people's software and wasting a lot of "
+"time. See the list of guilty parties below."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:73
+msgid ""
+"You may try a special DLL loading mode that Anaconda builds into Python. "
+"This changes the DLL search path from system32 first to system32 as "
+"another entry on PATH, allowing libraries in your conda environment to be"
+" found before the libraries in system32. Control of this feature is done "
+"with environment variables. Only python builds beyond these builds will "
+"react to these environment variables:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:80
+msgid "Python 2.7.15 build 14"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:81
+msgid "Python 3.6.8 build 7"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:82
+msgid "Python 3.7.2 build 8"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:84
+msgid "To update Python from the defaults channel::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:89
+msgid ""
+"Anaconda has built special patches into its builds of Python to enable "
+"this functionality. If you get your Python package from somewhere else "
+"(e.g. conda-forge), these flags may not do anything."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:93
+msgid "Control environment variables:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:95
+msgid "`CONDA_DLL_SEARCH_MODIFICATION_ENABLE`"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:96
+msgid "`CONDA_DLL_SEARCH_MODIFICATION_DEBUG`"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:97
+msgid "`CONDA_DLL_SEARCH_MODIFICATION_NEVER_ADD_WINDOWS_DIRECTORY`"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:98
+msgid "`CONDA_DLL_SEARCH_MODIFICATION_NEVER_ADD_CWD`"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:100
+msgid ""
+"To set variables on Windows, you may use either the CLI (Anaconda prompt,"
+" for example) or a Windows GUI."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:102
+msgid ""
+"CLI: https://superuser.com/questions/79612/setting-and-getting-windows-"
+"environment-variables-from-the-command-prompt/79614"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:103
+msgid ""
+"GUI: http://www.dowdandassociates.com/blog/content/howto-set-an-"
+"environment-variable-in-windows-gui/"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:105
+msgid ""
+"These should be set to a value of `1` to enable them.  For example, in an"
+" anaconda prompt terminal::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:110
+msgid ""
+"List of known bad software that installs Intel libraries to "
+"C:\\\\Windows\\\\System32:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:112
+msgid "Amplitube, by IK Multimedia"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:113
+msgid "ASIO4ALL, by Michael Tippach"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:115
+msgid ""
+"If you find others, please let us know. If you're on this list and you "
+"want to fix things, let us know. In either case, the conda issue tracker "
+"at https://github.com/conda/conda/issues is the best way to reach us."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:120
+msgid "SSL connection errors"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:122
+msgid ""
+"This is a broad umbrella of errors with many causes. Here are some we've "
+"seen."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:125
+msgid "CondaHTTPError: HTTP 000 CONNECTION FAILED"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:127
+msgid ""
+"If you're on Windows and you see this error, look a little further down "
+"in the error text. Do you see something like this?::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:132
+msgid "The key part there is the last bit::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:136
+msgid ""
+"Conda is having problems because it can't find the OpenSSL libraries that"
+" it needs."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:141
+msgid ""
+"You may observe this error cropping up after a conda update. More recent "
+"versions of conda and more recent builds of Python are more strict about "
+"requiring activation of environments. We're working on better error "
+"messages for them, but here's the story for now. Windows relies on the "
+"PATH environment variable as the way to locate libraries that are not in "
+"the immediate folder, and also not in the C:\\\\Windows\\\\System32 "
+"folder. Searching for libraries in the PATH folders goes from left to "
+"right. If you choose to put Anaconda's folders on PATH, there are several"
+" of them:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:150
+msgid "(install root)"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:151
+msgid "(install root)/Library/mingw-w64/bin"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:152
+msgid "(install root)/Library/usr/bin"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:153
+msgid "(install root)/Library/bin"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:154
+msgid "(install root)/Scripts"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:155
+msgid "(install root)/bin"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:156
+msgid "(install root)/condabin"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:158
+msgid ""
+"Early installers for Anaconda put these on PATH. That was ultimately "
+"fragile because Anaconda isn't the only software on the system. If other "
+"software had similarly named executables or libraries, and came earlier "
+"on PATH, Anaconda could break. On the flip side, Anaconda could break "
+"other software if Anaconda were earlier in the PATH order and shadowed "
+"any other executables or libraries. To make this easier, we began "
+"recommending \"activation\" instead of modifying PATH. Activation is a "
+"tool where conda sets your PATH, and also runs any custom package scripts"
+" which are often used to set additional environment variables that are "
+"necessary for software to run (e.g. JAVA_HOME). Because activation runs "
+"only in a local terminal session (as opposed to the permanent PATH "
+"entry), it is safe to put Anaconda's PATH entries first. That means that "
+"Anaconda's libraries get higher priority when you're running Anaconda, "
+"but Anaconda doesn't interfere with other software when you're not "
+"running Anaconda."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:172
+msgid ""
+"Anaconda's Python interpreter included a patch for a long time that added"
+" the (install root)/Library/bin folder to that Python's PATH. "
+"Unfortunately, this interfered with reasoning about PATH at all when "
+"using that Python interpreter. We removed that patch in Python 3.7.0, and"
+" we regret that this has caused problems for people who are not "
+"activating their environments and who otherwise do not have the proper "
+"entries on PATH. We're experimenting with approaches that will allow our "
+"executables to be less dependent on PATH and more self-aware of their "
+"needed library load paths. For now, though, the only solutions to this "
+"problem are to manage PATH properly."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:182
+msgid ""
+"Our humble opinion is that activation is the easiest way to ensure that "
+"things work. See more information on activation in :ref:`Activating "
+"environments <activate-env>`."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:189
+msgid ""
+"Use \"Anaconda Prompt\" or shells opened from Anaconda Navigator. If you "
+"use a GUI IDE and you see this error, ask the developers of your IDE to "
+"add activation for conda environments."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:194
+msgid "SSL certificate errors"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:199
+msgid ""
+"Installing packages may produce a \"connection failed\" error if you do "
+"not have the certificates for a secure connection to the package "
+"repository."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:205
+msgid ""
+"Pip can use the ``--trusted-host`` option to indicate that the URL of the"
+" repository is trusted::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:210
+msgid "Conda has three similar options."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:212
+msgid ""
+"The option ``--insecure`` or ``-k`` ignores certificate validation errors"
+" for all hosts."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:214
+msgid "Running ``conda create --help`` shows::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:221
+msgid "The configuration option ``ssl_verify`` can be set to ``False``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:223
+#: ../../source/user-guide/troubleshooting.rst:250
+msgid "Running ``conda config --describe ssl_verify`` shows::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:236
+msgid ""
+"Running ``conda config --set ssl_verify false`` modifies ``~/.condarc`` "
+"and sets the ``-k`` flag for all future conda operations performed by "
+"that user. Running ``conda config --help`` shows other configuration "
+"scope options."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:240
+#: ../../source/user-guide/troubleshooting.rst:268
+msgid ""
+"When using ``conda config``, the user's conda configuration file at "
+"``~/.condarc`` is used by default. The flag ``--system`` will instead "
+"write to the system configuration file for all users at "
+"``<CONDA_BASE_ENV>/.condarc``. The flag ``--env`` will instead write to "
+"the active conda environment's configuration file at "
+"``<PATH_TO_ACTIVE_CONDA_ENV>/.condarc``. If ``--env`` is used and no "
+"environment is active, the user configuration file is used."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:248
+msgid ""
+"The configuration option ``ssl_verify`` can be used to install new "
+"certificates."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:263
+msgid ""
+"Your network administrator can give you a certificate bundle for your "
+"network's firewall. Then ``ssl_verify`` can be set to the path of that "
+"certificate authority (CA) bundle and package installation operations "
+"will complete without connection errors."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:279
+msgid "Permission denied errors during installation"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:284
+msgid ""
+"The ``umask`` command  determines the mask settings that control how file"
+" permissions are set for newly created files. If you have a very "
+"restrictive ``umask``, such as ``077``, you get \"permission denied\" "
+"errors."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:292
+msgid ""
+"Set a less restrictive ``umask`` before calling conda commands. Conda was"
+" intended as a user space tool, but often users need to use it in a "
+"global environment. One place this can go awry is with restrictive file "
+"permissions. Conda creates links when you install files that have to be "
+"read by others on the system."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:298
+msgid ""
+"To give yourself full permissions for files and directories but prevent "
+"the group and other users from having access:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:301
+msgid "Before installing, set the ``umask`` to ``007``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:303
+msgid "Install conda."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:305
+msgid "Return the ``umask`` to the original setting:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:314
+msgid ""
+"For more information on ``umask``, see "
+"`http://en.wikipedia.org/wiki/Umask "
+"<http://en.wikipedia.org/wiki/Umask>`_."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:320
+msgid "Permission denied errors after using sudo conda command"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:325
+msgid ""
+"Once you run conda with sudo, you must use sudo forever. We recommend "
+"that you NEVER run conda with sudo."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:331
+msgid "Already installed error message"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:336
+msgid ""
+"If you are trying to fix conda problems without removing the current "
+"installation and you try to reinstall Miniconda or Anaconda to fix it, "
+"you get an error message that Miniconda or Anaconda is already installed "
+"and you cannot continue."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:344
+msgid "Install using the --force option."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:347
+msgid ""
+"Download and install the appropriate Miniconda for your operating system "
+"from the `Miniconda download page <https://conda.io/miniconda.html>`_ "
+"using the force option ``--force`` or ``-f``:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:357
+msgid "Substitute the appropriate filename and version for your operating system."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:361
+msgid ""
+"Be sure that you install to the same install location as your existing "
+"install so it overwrites the core conda files and does not install a "
+"duplicate in a new folder."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:369
+msgid "Conda reports that a package is installed, but it appears not to be"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:371
+msgid ""
+"Sometimes conda claims that a package is already installed but it does "
+"not appear to be, for example, a Python package that gives ImportError."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:375
+msgid ""
+"There are several possible causes for this problem, each with its own "
+"solution."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:381
+msgid "You are not in the same conda environment as your package."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:386
+msgid ""
+"Make sure that you are in the same conda environment as your package. The"
+" ``conda info`` command tells you what environment is currently active---"
+"under ``default environment``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:390
+msgid ""
+"Verify that you are using the Python from the correct environment by "
+"running:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:401
+msgid ""
+"For Python packages, you have set the PYTHONPATH or PYTHONHOME variable. "
+"These environment variables cause Python to load files from locations "
+"other than the standard ones. Conda works best when these environment "
+"variables are not set, as their typical use cases are obviated by conda "
+"environments and a common issue is that they cause Python to pick up the "
+"wrong versions or broken versions of a library."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:413
+msgid ""
+"For Python packages, make sure you have not set the PYTHONPATH or "
+"PYTHONHOME variables. The command ``conda info -a`` displays the values "
+"of these environment variables."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:417
+msgid ""
+"To unset these environment variables temporarily for the current terminal"
+" session, run ``unset PYTHONPATH``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:420
+msgid "To unset them permanently, check for lines in the files:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:422
+msgid "If you use bash---``~/.bashrc``, ``~/.bash_profile``, ``~/.profile``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:425
+msgid "If you use zsh---`~/.zshrc``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:427
+msgid "If you use PowerShell on Windows, the file output by ``$PROFILE`` ."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:434
+msgid ""
+"You have site-specific directories or, for Python, you have so-called "
+"site-specific files. These are typically located in ``~/.local`` on Linux"
+" and macOS. For a full description of the locations of site-specific "
+"packages, see `PEP 370 <http://legacy.python.org/dev/peps/pep-0370/>`_.  "
+"As with PYTHONPATH, Python may try importing packages from this "
+"directory, which can cause issues."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:445
+msgid ""
+"For Python packages, remove site-specific directories and site-specific "
+"files."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:451
+msgid "For C libraries, the following environment variables have been set:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:454
+msgid "macOS---DYLD_LIBRARY_PATH."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:455
+msgid "Linux---LD_LIBRARY_PATH."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:457
+msgid ""
+"These act similarly to ``PYTHONPATH`` for Python. If they are set, they "
+"can cause libraries to be loaded from locations other than the conda "
+"environment. Conda environments obviate most use cases for these "
+"variables. The command ``conda info -a`` shows what these are set to."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:466
+msgid "Unset DYLD_LIBRARY_PATH or LD_LIBRARY_PATH."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:472
+msgid ""
+"Occasionally, an installed package becomes corrupted. Conda works by "
+"unpacking the packages in the ``pkgs`` directory and then hard-linking "
+"them to the environment. Sometimes these get corrupted, breaking all "
+"environments that use them, and also any additional environments, since "
+"the same files are hard-linked each time."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:483
+msgid ""
+"Run the command ``conda install -f`` to unarchive the package again and "
+"relink it. It also does an md5 verification on the package. Usually if "
+"this is different, it is because your channels have changed and there is "
+"a different package with the same name, version, and build number."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:490
+msgid ""
+"This breaks the links to any other environments that already had this "
+"package installed, so you have to reinstall it there, too. It also means "
+"that running ``conda install -f`` a lot can use up a lot of disk space if"
+" you have a lot of environments."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:496
+msgid ""
+"The ``-f`` flag to ``conda install`` (``--force``) implies ``--no-deps``,"
+" so ``conda install -f package`` does not reinstall any of the "
+"dependencies of ``package``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:504
+msgid "pkg_resources.DistributionNotFound: conda==3.6.1-6-gb31b0d4-dirty"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:509
+msgid "The local version of conda needs updating."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:514
+msgid ""
+"Force reinstall conda. A useful way to work off the development version "
+"of conda is to run ``python setup.py develop`` on a checkout of the "
+"`conda git repository <https://github.com/conda/conda>`_. However, if you"
+" are not regularly running ``git pull``, it is a good idea to un-develop,"
+" as you will otherwise not get any regular updates to conda. The normal "
+"way to do this is to run ``python setup.py develop -u``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:522
+msgid ""
+"However, this command does not replace the ``conda`` script itself. With "
+"other packages, this is not an issue, as you can just reinstall them with"
+" ``conda``, but conda cannot be used if conda is installed."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:527
+msgid ""
+"The fix is to use the ``./bin/conda`` executable in the conda git "
+"repository to force reinstall conda, that is, run ``./bin/conda install "
+"-f conda``.  You can then verify with ``conda info`` that you have the "
+"latest version of conda, and not a git checkout---the version should not "
+"include any hashes."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:537
+msgid "macOS error \"ValueError unknown locale: UTF-8\""
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:542
+msgid ""
+"This is a bug in the macOS Terminal app that shows up only in certain "
+"locales. Locales are country-language combinations."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:549
+msgid "Open Terminal in ``/Applications/Utilities``"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:551
+msgid "Clear the Set locale environment variables on startup checkbox."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:559
+msgid ""
+"This sets your LANG environment variable to be empty. This may cause "
+"Terminal use to incorrect settings for your locale. The ``locale`` "
+"command in Terminal tells you what settings are used."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:563
+msgid ""
+"To use the correct language, add a line to your bash profile, which is "
+"typically ``~/.profile``:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:571
+msgid "Replace ``your-lang`` with the correct locale specifier for your language."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:574
+msgid ""
+"The command ``locale -a`` displays all the specifiers. For example, the "
+"language code for US English is ``en_US.UTF-8``. The locale affects what "
+"translations are used when they are available and also how dates, "
+"currencies and decimals are formatted."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:583
+msgid "AttributeError or missing getproxies"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:585
+msgid ""
+"When running a command such as ``conda update ipython``, you may get an "
+"``AttributeError: 'module' object has no attribute 'getproxies'``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:592
+msgid ""
+"This can be caused by an old version of ``requests`` or by having the "
+"``PYTHONPATH`` environment variable set."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:598
+msgid "Update ``requests`` and be sure ``PYTHONPATH`` is not set:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:600
+msgid ""
+"Run ``conda info -a`` to show the ``requests`` version and various "
+"environment variables such as ``PYTHONPATH``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:603
+msgid "Update the ``requests`` version with ``pip install -U requests``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:606
+msgid "Clear ``PYTHONPATH``:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:608
+msgid "On Windows, clear it the environment variable settings."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:610
+msgid ""
+"On macOS and Linux, clear it by removing it from the bash profile and "
+"restarting the shell."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:617
+msgid "Shell commands open from the wrong location"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:619
+msgid ""
+"When you run a command within a conda environment, conda does not access "
+"the correct package executable."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:625
+msgid ""
+"In both bash and zsh, when you enter a command, the shell searches the "
+"paths in PATH one by one until it finds the command. The shell then "
+"caches the location, which is called hashing in shell terminology. When "
+"you run command again, the shell does not have to search the PATH again."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:631
+msgid ""
+"The problem is that before you installed the program, you ran a command "
+"which loaded and hashed another version of that program in some other "
+"location on the PATH, such as ``/usr/bin``. Then you installed the "
+"program using ``conda install``, but the shell still had the old instance"
+" hashed."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:641
+msgid ""
+"Reactivate the environment or run ``hash -r`` (in bash) or ``rehash`` (in"
+" zsh)."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:644
+msgid ""
+"When you run ``source activate``, conda automatically runs ``hash -r`` in"
+" bash and ``rehash`` in zsh to clear the hashed commands, so conda finds "
+"things in the new path on the PATH. But there is no way to do this when "
+"``conda install`` is run because the command must be run inside the shell"
+" itself, meaning either you have to run the command yourself or use "
+"source a file that contains the command."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:652
+msgid ""
+"This is a relatively rare problem, since this happens only in the "
+"following circumstances:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:655
+msgid ""
+"You activate an environment or use the root environment, and then run a "
+"command from somewhere else."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:658
+msgid ""
+"Then you conda install a program, and then try to run the program again "
+"without running ``activate`` or ``deactivate``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:662
+msgid ""
+"The command ``type command_name`` always tells you exactly what is being "
+"run. This is better than ``which command_name``, which ignores hashed "
+"commands and searches the PATH directly. The hash is reset by ``source "
+"activate``, or by ``hash -r`` in bash or ``rehash`` in zsh."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:672
+msgid "Programs fail due to invoking conda Python instead of system Python"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:677
+msgid ""
+"After installing Anaconda or Miniconda, programs that run ``python`` "
+"switch from invoking the system Python to invoking the Python in the root"
+" conda environment. If these programs rely on the system Python to have "
+"certain configurations or dependencies that are not in the root conda "
+"environment Python, the programs may crash. For example, some users of "
+"the Cinnamon desktop environment on Linux Mint have reported these "
+"crashes."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:689
+msgid ""
+"Edit your ``.bash_profile`` and ``.bashrc`` files so that the conda "
+"binary directory, such as ``~/miniconda3/bin``, is no longer added to the"
+" PATH environment variable. You can still run ``conda`` ``activate`` and "
+"``deactivate`` by using their full path names, such as "
+"``~/miniconda3/bin/conda``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:695
+msgid ""
+"You may also create a folder with symbolic links to ``conda``, "
+"``activate`` and ``deactivate``, and then edit your ``.bash_profile`` or "
+"``.bashrc`` file to add this folder to your PATH. If you do this, running"
+" ``python`` will invoke the system Python, but running ``conda`` "
+"commands, ``source activate MyEnv``, ``source activate root``, or "
+"``source deactivate`` will work normally."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:703
+msgid ""
+"After running ``source activate`` to activate any environment, including "
+"after running ``source activate root``, running ``python`` will invoke "
+"the Python in the active conda environment."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:711
+msgid "UnsatisfiableSpecifications error"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:716
+msgid ""
+"Some conda package installation specifications are impossible to satisfy."
+" For example, ``conda create -n tmp python=3 wxpython=3`` produces an "
+"\"Unsatisfiable Specifications\" error because wxPython 3 depends on "
+"Python 2.7, so the specification to install Python 3 conflicts with the "
+"specification to install wxPython 3."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:722
+msgid ""
+"When an unsatisfiable request is made to conda, conda shows a message "
+"such as this one::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:730
+msgid ""
+"This indicates that the specification to install wxpython 3 depends on "
+"installing Python 2.7, which conflicts with the specification to install "
+"python 3."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:737
+msgid ""
+"Use \"conda info wxpython\" or \"conda info wxpython=3\" to show "
+"information about this package and its dependencies::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:761
+msgid ""
+"By examining the dependencies of each package, you should be able to "
+"determine why the installation request produced a conflict and modify the"
+" request so it can be satisfied without conflicts. In this example, you "
+"could install wxPython with Python 2.7::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:772
+msgid "Package installation fails from a specific channel"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:777
+msgid ""
+"Sometimes it is necessary to install a specific version from a specific "
+"channel because that version is not available from the default channel."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:785
+msgid "The following example describes the problem in detail and its solution."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:788
+msgid ""
+"Suppose you have a specific need to install the Python ``cx_freeze`` "
+"module with Python 3.4. A first step is to create a Python 3.4 "
+"environment:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:796
+msgid "Using this environment you should first attempt:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:802
+msgid "However, when you do this you get the following error::"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:814
+msgid ""
+"The message indicates that ``cx_freeze`` cannot be found in the default "
+"package channels. However, there may be a community-created version "
+"available and you can search for it by running the following command:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:836
+msgid ""
+"In this example, there are 4 different places that you could try to get "
+"the package. None of them are officially supported or endorsed by "
+"Anaconda, but members of the conda community have provided many valuable "
+"packages. If you want to go with public opinion, then `the web interface "
+"<https://anaconda.org/search?q=cx_freeze>`_ provides more information:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:851
+msgid ""
+"Notice that the ``pyzo`` organization has by far the most downloads, so "
+"you might choose to use their package. If so, you can add their "
+"organization's channel by specifying it on the command line:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:889
+msgid ""
+"Now you have a software environment sandbox created with Python 3.4 and "
+"``cx_freeze``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:896
+msgid "Conda automatically upgrades to unwanted version"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:898
+msgid ""
+"When making a python package for an app, you create an environment for "
+"the app from a file ``req.txt`` that sets a certain version, such as "
+"``python=2.7.9``. However, when you ``conda install`` your package, it "
+"automatically upgrades to a later version, such as ``2.7.10``."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:907
+msgid ""
+"If you make a conda package for the app using conda build, you can set "
+"dependencies with specific version numbers. The requirements lines that "
+"say ``- python`` could be ``- python ==2.7.9`` instead. It is important "
+"to have 1 space before the == operator and no space after."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:916
+msgid "Exercise caution when coding version requirements."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:921
+msgid "Conda upgrade error"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:925
+msgid ""
+"Downgrading conda from 4.6.1 to 4.5.x and then trying to ``conda install "
+"conda`` or  ``conda upgrade conda`` will produce a solving and upgrade "
+"error similar to the following:"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:938
+msgid ""
+"Change the .condarc file. Set the parameter by editing the .condarc file "
+"directly: ``allow_conda_downgrades: true`` in conda version 4.5.12. This "
+"will then let you upgrade. If you have something older than 4.5.12, "
+"install conda 4.6.1 again from the package cache."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:941
+msgid ""
+"EXAMPLE: If my conda info says package cache : /opt/conda/pkgs and my "
+"Python version is 3.7, then on the command line, type ``conda install "
+"/opt/conda/pkgs/conda-4.6.1-py37_0.tar.bz2`` to resolve the issue."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:946
+msgid "ValidationError: Invalid value for timestamp"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:951
+msgid ""
+"This happens when certain packages are installed with conda 4.3.28, and "
+"then conda is downgraded to 4.3.27 or earlier."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:957
+msgid "See https://github.com/conda/conda/issues/6096."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:962
+msgid "Unicode error after installing Python 2"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:964
+msgid ""
+"Example: UnicodeDecodeError: 'ascii' codec can't decode byte 0xd3 in "
+"position 1: ordinal not in range(128)"
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:969
+msgid ""
+"Python 2 is incapable of handling unicode properly, especially on "
+"Windows. In this case, if any character in your PATH env. var contains "
+"anything that is not ASCII then you see this exception."
+msgstr ""
+
+#: ../../source/user-guide/troubleshooting.rst:974
+msgid "Remove all non-ASCII from PATH or switch to Python 3."
+msgstr ""
+

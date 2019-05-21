@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/concepts/channels.rst:3
+msgid "Conda channels"
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:12
+msgid "What is a \"conda channel\"?"
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:14
+msgid ""
+"Conda :doc:`packages <packages>`_ are downloaded from remote channels, "
+"which are URLs to directories containing conda packages. The ``conda`` "
+"command searches a default set of channels, and packages are "
+"automatically downloaded and updated from "
+"https://repo.anaconda.com/pkgs/. You can modify what remote channels are "
+"automatically searched. You might want to do this to maintain a private "
+"or internal channel. For details, see how to :ref:``modify your channel "
+"lists <config-channels>`."
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:27
+msgid "Specifying channels when installing packages"
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:29
+msgid "From the command line use `--channel`"
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:35
+msgid "You may specify multiple channels by passing the argument multiple times:"
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:41
+msgid ""
+"Priority decreases from left to right - the first argument is higher "
+"priority than the second."
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:43
+msgid ""
+"From the command line use `--override-channels` to only search the "
+"specified channel(s), rather than any channels configured in .condarc. "
+"This also ignores conda's default channels."
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:49
+msgid ""
+"In .condarc, use the key `channels` to see a list of channels for conda "
+"to search for packages."
+msgstr ""
+
+#: ../../source/user-guide/concepts/channels.rst:51
+msgid "Learn more about :doc:`managing channels <../tasks/manage-channels>`."
+msgstr ""
+

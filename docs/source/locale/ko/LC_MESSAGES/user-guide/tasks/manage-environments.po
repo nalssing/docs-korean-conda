@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/tasks/manage-environments.rst:3
+msgid "Managing environments"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:9
+msgid ""
+"With conda, you can create, export, list, remove, and update environments"
+" that have different versions of Python and/or packages installed in "
+"them. Switching or moving between environments is called activating the "
+"environment. You can also share an environment file."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:16
+msgid ""
+"There are many options available for the commands described on this page."
+" For details, see :doc:`../../commands`."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:20
+msgid ""
+"``conda activate`` and ``conda deactivate`` only work on conda 4.6 and "
+"later versions. For conda versions prior to 4.6, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:23
+msgid "Windows: ``activate`` or ``deactivate``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:24
+msgid "Linux and macOS: ``source activate`` or ``source deactivate``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:27
+msgid "Creating an environment with commands"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:30
+msgid ""
+"By default, environments are installed into the ``envs`` directory in "
+"your conda directory. Run ``conda create --help`` for information on "
+"specifying a different path."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:34
+#: ../../source/user-guide/tasks/manage-environments.rst:121
+#: ../../source/user-guide/tasks/manage-environments.rst:150
+#: ../../source/user-guide/tasks/manage-environments.rst:181
+msgid "Use the terminal or an Anaconda Prompt for the following steps:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:36
+msgid "To create an environment:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:43
+#: ../../source/user-guide/tasks/manage-environments.rst:137
+msgid "Replace ``myenv`` with the environment name."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:45
+msgid "When conda asks you to proceed, type ``y``:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:51
+msgid ""
+"This creates the myenv environment in ``/envs/``. This environment uses "
+"the same version of Python that you are currently using because you did "
+"not specify a version."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:55
+msgid "To create an environment with a specific version of Python:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:61
+msgid "To create an environment with a specific package:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:67
+#: ../../source/user-guide/tasks/manage-environments.rst:80
+msgid "OR:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:74
+msgid "To create an environment with a specific version of a package:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:87
+msgid ""
+"To create an environment with a specific version of Python and multiple "
+"packages:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:95
+msgid ""
+"Install all the programs that you want in this environment at the same "
+"time. Installing 1 program at a time can lead to dependency conflicts."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:99
+msgid ""
+"To automatically install pip or another program every time a new "
+"environment is created, add the default programs to the "
+":ref:`create_default_packages <config-add-default-pkgs>` section of your "
+"``.condarc`` configuration file. The default packages are installed every"
+" time you create a new environment. If you do not want the default "
+"packages installed in a particular environment, use the ``--no-default-"
+"packages`` flag:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:112
+msgid ""
+"You can add much more to the ``conda create`` command. For details, run "
+"``conda create --help``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:119
+msgid "Creating an environment from an environment.yml file"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:123
+msgid "Create the environment from the ``environment.yml`` file:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:129
+msgid ""
+"The first line of the ``yml`` file sets the new environment's name. For "
+"details see :ref:`Creating an environment file manually <create-env-file-"
+"manually>`."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:134
+msgid "Activate the new environment: ``conda activate myenv``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:140
+msgid "Verify that the new environment was installed correctly:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:148
+msgid "Cloning an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:152
+msgid "You can make an exact copy of an environment by creating a clone of it:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:160
+msgid ""
+"Replace ``myclone`` with the name of the new environment. Replace "
+"``myenv`` with the name of the existing environment that you want to "
+"copy."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:164
+msgid "To verify that the copy was made:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:170
+msgid ""
+"In the environments list that displays, you should see both the source "
+"environment and the new copy."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:175
+msgid "Building identical conda environments"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:177
+msgid ""
+"You can use explicit specification files to build an identical conda "
+"environment on the same operating system platform, either on the same "
+"machine or on a different machine."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:183
+msgid "Run ``conda list --explicit`` to produce a spec list such as:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:205
+msgid "To create this spec list as a file in the current working directory, run::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:211
+msgid ""
+"You can use ``spec-file.txt`` as the filename or replace it with a "
+"filename of your choice."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:214
+msgid ""
+"An explicit spec file is not usually cross platform, and therefore has a "
+"comment at the top such as ``# platform: osx-64`` showing the platform "
+"where it was created. This platform is the one where this spec file is "
+"known to work. On other platforms, the packages specified might not be "
+"available or dependencies might be missing for some of the key packages "
+"already in the spec."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:222
+msgid ""
+"To use the spec file to create an identical environment on the same "
+"machine or another machine::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:227
+msgid ""
+"To use the spec file to install its listed packages into an existing "
+"environment::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:232
+msgid ""
+"Conda does not check architecture or dependencies when installing from a "
+"spec file. To ensure that the packages work correctly, make sure that the"
+" file was created from a working environment, and use it on the same "
+"architecture, operating system and platform, such as linux-64 or osx-64."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:242
+msgid "Activating an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:244
+msgid ""
+"Activating environments is essential to making the software in the "
+"environments work well. Activation entails two primary functions: adding "
+"entries to PATH for the environment, and running any activation scripts "
+"that the environment may contain. These activation scripts are how "
+"packages can set arbitrary environment variables that may be necessary "
+"for their operation."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:250
+msgid "To activate an environment: ``conda activate myenv``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:253
+msgid "Replace ``myenv`` with the environment name or directory path."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:255
+msgid "Conda prepends the path name ``myenv`` onto your system command."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:257
+msgid ""
+"Windows is extremely sensitive to proper activation. This is because the "
+"Windows library loader does not support the concept of libraries and "
+"executables that know where to search for their dependencies (RPATH). "
+"Instead, Windows relies on a standard library search order, defined at "
+"https://docs.microsoft.com/en-us/previous-versions/7d83bc18(v=vs.140). If"
+" environments are not active, libraries won't get found and there will be"
+" lots of errors. HTTP or SSL errors are common errors when the Python in "
+"a child environment can't find the necessary OpenSSL library."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:266
+msgid ""
+"Conda itself includes some special workarounds to add its necessary PATH "
+"entries. This makes it so that it can be called without activation or "
+"with any child environment active. In general, calling any executable in "
+"an environment without first activating that environment will likely not "
+"work. For the ability to run executables in activated environments, you "
+"may be interested in the ``conda run`` command."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:275
+msgid "Deactivating an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:277
+msgid "To deactivate an environment, type: ``conda deactivate``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:279
+msgid ""
+"Conda removes the path name for the currently active environment from "
+"your system command."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:283
+msgid ""
+"To simply return to the base environment, it's better to call ``conda "
+"activate`` with no environment specified, rather than to try to "
+"deactivate. If you run ``conda deactivate`` from your base environment, "
+"you may lose the ability to run conda at all. Don't worry, that's local "
+"to this shell - you can start a new one."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:293
+msgid "Determining your current environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:295
+msgid "Use the terminal or an Anaconda Prompt for the following steps."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:297
+msgid ""
+"By default, the active environment---the one you are currently using---is"
+" shown in parentheses () or brackets [] at the beginning of your command "
+"prompt::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:303
+msgid "If you do not see this, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:309
+msgid ""
+"In the environments list that displays, your current environment is "
+"highlighted with an asterisk (*)."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:312
+msgid ""
+"By default, the command prompt is set to show the name of the active "
+"environment. To disable this option::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:317
+msgid "To re-enable this option::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:323
+msgid "Viewing a list of your environments"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:325
+msgid ""
+"To see a list of all of your environments, in your terminal window or an "
+"Anaconda Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:332
+msgid "OR"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:338
+msgid "A list similar to the following is displayed:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:349
+msgid "Viewing a list of the packages in an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:351
+msgid "To see a list of all packages installed in a specific environment:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:353
+msgid ""
+"If the environment is not activated, in your terminal window or an "
+"Anaconda Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:360
+msgid ""
+"If the environment is activated, in your terminal window or an Anaconda "
+"Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:367
+msgid ""
+"To see if a specific package is installed in an environment, in your "
+"terminal window or an Anaconda Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:378
+msgid "Using pip in an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:380
+msgid ""
+"To use pip in your environment, in your terminal window or an Anaconda "
+"Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:391
+msgid "Saving environment variables"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:393
+msgid "Conda environments can include saved environment variables."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:395
+msgid ""
+"Suppose you want an environment \"analytics\" to store both a secret key "
+"needed to log in to a server and a path to a configuration file. The "
+"sections below explain how to write a script named ``env_vars`` to do "
+"this on :ref:`Windows <win-save-env-variables>` and :ref:`macOS or Linux "
+"<macos-linux-save-env-variables>`."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:402
+msgid ""
+"This type of script file can be part of a conda package, in which case "
+"these environment variables become active when an environment containing "
+"that package is activated."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:406
+msgid ""
+"You can name these scripts anything you like. However, multiple packages "
+"may create script files, so be sure to use descriptive names that are not"
+" used by other packages. One popular option is to give the script a name "
+"in the form ``packagename-scriptname.sh``, or on Windows, ``packagename-"
+"scriptname.bat``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:416
+msgid "Windows"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:418
+msgid ""
+"Locate the directory for the conda environment in your Anaconda Prompt by"
+" running in the command shell ``%CONDA_PREFIX%``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:421
+#: ../../source/user-guide/tasks/manage-environments.rst:451
+msgid "Enter that directory and create these subdirectories and files::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:430
+msgid "Edit ``.\\etc\\conda\\activate.d\\env_vars.bat`` as follows::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:435
+msgid "Edit ``.\\etc\\conda\\deactivate.d\\env_vars.bat`` as follows::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:440
+#: ../../source/user-guide/tasks/manage-environments.rst:474
+msgid ""
+"When you run ``conda activate analytics``, the environment variables "
+"MY_KEY and MY_FILE are set to the values you wrote into the file. When "
+"you run ``conda deactivate``, those variables are erased."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:447
+msgid "macOS and Linux"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:449
+msgid ""
+"Locate the directory for the conda environment in your terminal window by"
+" running in the terminal ``echo $CONDA_PREFIX``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:460
+msgid "Edit ``./etc/conda/activate.d/env_vars.sh`` as follows::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:467
+msgid "Edit ``./etc/conda/deactivate.d/env_vars.sh`` as follows::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:481
+msgid "Sharing an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:483
+msgid ""
+"You may want to share your environment with someone else---for example, "
+"so they can re-create a test that you have done. To allow them to quickly"
+" reproduce your environment, with all of its packages and versions, give "
+"them a copy of your ``environment.yml file``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:490
+msgid "Exporting the environment file"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:493
+msgid ""
+"If you already have an ``environment.yml`` file in your current "
+"directory, it will be overwritten during this task."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:496
+msgid "Activate the environment to export: ``conda activate myenv``"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:499
+msgid "Replace ``myenv`` with the name of the environment."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:501
+msgid "Export your active environment to a new file::"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:506
+msgid "This file handles both the environment's pip packages and conda packages."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:509
+msgid "Email or copy the exported ``environment.yml`` file to the other person."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:515
+msgid "Creating an environment file manually"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:517
+msgid "You can create an environment file manually to share with others."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:519
+msgid "EXAMPLE: A simple environment file:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:528
+msgid "EXAMPLE: A more complex environment file:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:544
+msgid ""
+"You can exclude the default channels by adding ``nodefaults`` to the "
+"channels list."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:553
+msgid ""
+"This is equivalent to passing the ``--override-channels`` option to most "
+"``conda`` commands."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:556
+msgid ""
+"Adding ``nodefaults`` to the channels list in ``environment.yml`` is "
+"similar to removing ``defaults`` from the :ref:`channels list <config-"
+"channels>` in the ``.condarc`` file. However, changing "
+"``environment.yml`` affects only one of your conda environments while "
+"changing ``.condarc`` affects them all."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:562
+msgid ""
+"For details on creating an environment from this ``environment.yml`` "
+"file, see :ref:`create-env-from-file`."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:566
+msgid "Removing an environment"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:568
+msgid ""
+"To remove an environment, in your terminal window or an Anaconda Prompt, "
+"run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:575
+msgid "You may instead use ``conda env remove --name myenv``."
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:577
+msgid ""
+"To verify that the environment was removed, in your terminal window or an"
+" Anaconda Prompt, run:"
+msgstr ""
+
+#: ../../source/user-guide/tasks/manage-environments.rst:584
+msgid ""
+"The environments list that displays should not show the removed "
+"environment."
+msgstr ""
+

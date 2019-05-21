@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/commands/search.rst:2
+msgid "``conda search``"
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Search all of the current user's environments. If run as Administrator "
+"(on Windows) or UID 0 (on unix), search all known environments on the "
+"system."
+msgstr ""
+
+#: ../../None:1
+msgid "Provide detailed information about each package."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Search the given subdir. Should be formatted like 'osx-64', 'linux-32', "
+"'win-64', and so on. The default is to search the current platform."
+msgstr ""
+
+#: ../../None:5
+msgid ""
+"Additional channel to search for packages. These are URLs searched in the"
+" order"
+msgstr ""
+
+#: ../../None:2
+msgid ""
+"they are given (including file:// for local directories).  Then, the "
+"defaults or channels from .condarc are searched (unless --override-"
+"channels is given).  You can use 'defaults' to get the default packages "
+"for conda.  You can also use any name and the .condarc channel_alias "
+"value will be prepended.  The default channel_alias is "
+"http://conda.anaconda.org/."
+msgstr ""
+
+#: ../../None:1
+msgid "Use locally built packages. Identical to '-c local'."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not search default or .condarc channels.  Requires --channel."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Specify name of repodata on remote server. Conda will try whatever you "
+"specify, but will ultimately fall back to repodata.json if your specs are"
+" not satisfiable with what you specify here. This is used to employ "
+"repodata that is reduced in time scope."
+msgstr ""
+
+#: ../../None:1
+msgid "Use cache of channel index files, even if it has expired."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Allow conda to perform \"insecure\" SSL connections and transfers. "
+"Equivalent to setting 'ssl_verify' to 'false'."
+msgstr ""
+
+#: ../../None:1
+msgid "Offline mode. Don't connect to the Internet."
+msgstr ""
+
+#: ../../None:1
+msgid "Report all output as json. Suitable for using conda programmatically."
+msgstr ""
+
+#: ../../None:1
+msgid "Use once for info, twice for debug, three times for trace."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not display progress bar."
+msgstr ""
+

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/commands/list.rst:2
+msgid "``conda list``"
+msgstr ""
+
+#: ../../None:1
+msgid "List only packages matching this regular expression."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Show channel urls. Overrides the value given by `conda config --show "
+"show_channel_urls`."
+msgstr ""
+
+#: ../../None:1
+msgid "Output canonical names of packages only. Implies --no-pip."
+msgstr ""
+
+#: ../../None:1
+msgid "Only search for full names, i.e., ^<regex>$."
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"List explicitly all installed conda packaged with URL (output may be used"
+" by conda create --file)."
+msgstr ""
+
+#: ../../None:1
+msgid "Add MD5 hashsum when using --explicit"
+msgstr ""
+
+#: ../../None:1
+msgid ""
+"Output requirement string only (output may be used by  conda create "
+"--file)."
+msgstr ""
+
+#: ../../None:1
+msgid "List the revision history and exit."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not include pip-only installed packages."
+msgstr ""
+
+#: ../../None:1
+msgid "Name of environment."
+msgstr ""
+
+#: ../../None:1
+msgid "Full path to environment location (i.e. prefix)."
+msgstr ""
+
+#: ../../None:1
+msgid "Report all output as json. Suitable for using conda programmatically."
+msgstr ""
+
+#: ../../None:1
+msgid "Use once for info, twice for debug, three times for trace."
+msgstr ""
+
+#: ../../None:1
+msgid "Do not display progress bar."
+msgstr ""
+

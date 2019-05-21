@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/concepts/environments.rst:3
+msgid "Conda environments"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:5
+msgid ""
+"A conda environment is a directory that contains a specific collection of"
+" conda packages that you have installed. For example, you may have one "
+"environment with NumPy 1.7 and its dependencies, and another environment "
+"with NumPy 1.6 for legacy testing. If you change one environment, your "
+"other environments are not affected. You can easily activate or "
+"deactivate environments, which is how you switch between them. You can "
+"also share your environment with someone by giving them a copy of your "
+"``environment.yaml`` file. For more information, see :doc:`../tasks"
+"/manage-environments`."
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:18
+msgid "Conda directory structure"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:21
+msgid "``ROOT_DIR``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:22
+msgid "The directory that Anaconda or Miniconda was installed into."
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:24
+msgid "EXAMPLES:"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:32
+msgid "``/pkgs``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:34
+msgid ""
+"Also referred to as PKGS_DIR. This directory contains decompressed "
+"packages, ready to be linked in conda environments. Each package resides "
+"in a subdirectory corresponding to its canonical name."
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:40
+msgid "``/envs``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:42
+msgid "The system location for additional conda environments to be created."
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:45
+msgid "The following subdirectories comprise the default Anaconda environment:"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:48
+msgid "``/bin``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:49
+msgid "``/include``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:50
+msgid "``/lib``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:51
+msgid "``/share``"
+msgstr ""
+
+#: ../../source/user-guide/concepts/environments.rst:54
+msgid ""
+"Other conda environments usually contain the same subdirectories as the "
+"default environment."
+msgstr ""
+

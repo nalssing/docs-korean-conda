@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:3
+msgid "Installing with conda"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:11
+msgid "To install conda packages, in the terminal or an Anaconda Prompt, run::"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:16
+msgid ""
+"During the install process, files are extracted into the specified "
+"environment, defaulting to the current environment if none is specified. "
+"Installing the files of a conda package into an environment can be "
+"thought of as changing the directory to an environment, and then "
+"downloading and extracting the artifact and its dependencies---all with "
+"the single ``conda install [packagename]`` command."
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:24
+msgid ""
+"Read more about :doc:`conda environments and directory structure "
+"<../concepts/environments>`."
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:26
+msgid ""
+"When you ``conda install`` a package that exists in a channel and has no "
+"dependencies, conda:"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:28
+msgid "looks at your configured channels (in priority)"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:30
+msgid "reaches out to the repodata associated with your channels/platform"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:32
+msgid "parses repodata to search for the package"
+msgstr ""
+
+#: ../../source/user-guide/concepts/installing-with-conda.rst:34
+msgid "once the package is found, conda pulls it down and installs"
+msgstr ""
+

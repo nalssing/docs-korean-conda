@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/user-guide/concepts/packages.rst:3
+msgid "Conda packages"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:12
+msgid "What is a conda package?"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:14
+msgid "A conda package is a compressed tarball file (.tar.bz2) that contains:"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:16
+msgid "system-level libraries"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:17
+msgid "Python or other modules"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:18
+msgid "executable programs and other components"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:19
+msgid "metadata under the ``info/`` directory"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:20
+msgid ""
+"a collection of files that are installed directly into an ``install`` "
+"prefix"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:22
+msgid ""
+"Conda keeps track of the dependencies between packages and platforms. The"
+" conda package format is identical across platforms and operating "
+"systems."
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:26
+msgid ""
+"Only files, including symbolic links, are part of a conda package. "
+"Directories are not included. Directories are created and removed as "
+"needed, but you cannot create an empty directory from the tar archive "
+"directly."
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:32
+msgid "Using packages"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:34
+msgid "You may search for packages"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:41
+msgid "You may install a package"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:48
+msgid ""
+"You may build a package after `installing conda build "
+"<https://docs.conda.io/projects/conda-build/en/latest/index.html>`_"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:57
+msgid "Package structure"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:73
+msgid "bin contains relevant binaries for the package"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:75
+msgid "lib contains the relevant library files (eg. the .py files)"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:77
+msgid "info contains package metadata"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:82
+msgid "Link and unlink scripts"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:84
+msgid ""
+"You may optionally execute scripts before and after the link and unlink "
+"steps. For more information, see `Adding pre-link, post-link and pre-"
+"unlink scripts <https://docs.conda.io/projects/conda-"
+"build/en/latest/resources/link-scripts.html>`_."
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:90
+msgid "More information"
+msgstr ""
+
+#: ../../source/user-guide/concepts/packages.rst:92
+msgid ""
+"Go deeper on how to :ref:`manage packages <managing-pkgs>`. Learn more "
+"about package metadata, repository structure and index, and package match"
+" specifications at :doc:`Package specifications <../concepts/pkg-specs>`."
+msgstr ""
+

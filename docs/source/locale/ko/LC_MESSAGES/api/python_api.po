@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Continuum Analytics
+# This file is distributed under the same license as the conda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conda 4.7.0.post2+1e64239b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/api/python_api.rst:2
+msgid "``conda.api.python_api``"
+msgstr ""
+
+#: conda.cli.python_api.run_command:1 of
+msgid ""
+"Runs a conda command in-process with a given set of command-line "
+"interface arguments."
+msgstr ""
+
+#: conda.cli.python_api.run_command:4 of
+msgid "Differences from the command-line interface:"
+msgstr ""
+
+#: conda.cli.python_api.run_command:4 of
+msgid "Always uses --yes flag, thus does not ask for confirmation."
+msgstr ""
+
+#: conda.cli.python_api.run_command of
+msgid "Parameters"
+msgstr ""
+
+#: conda.cli.python_api.run_command:6 of
+msgid "one of the Commands.X"
+msgstr ""
+
+#: conda.cli.python_api.run_command:7 of
+msgid ""
+"instructions you would normally pass to the conda comamnd on the command "
+"line see below for examples. Be very careful to delimit arguements "
+"exactly as you want them to be delivered. No 'combine then split at "
+"spaces' or other information destroying processing gets performed on the "
+"arguments."
+msgstr ""
+
+#: conda.cli.python_api.run_command:11 of
+msgid ""
+"special instructions for programmatic overrides use_exception_handler: "
+"defaults to False.  False will let the code calling     `run_command` "
+"handle all exceptions.  True won't raise when an exception     has "
+"occured, and instead give a non-zero return code search_path: an optional"
+" non-standard search path for configuration information     that "
+"overrides the default SEARCH_PATH stdout: Define capture behavior for "
+"stream sys.stdout. Defaults to STRING.     STRING captures as a string.  "
+"None leaves stream untouched.     Otherwise redirect to file-like object "
+"stdout. stderr: Define capture behavior for stream sys.stderr. Defaults "
+"to STRING.     STRING captures as a string.  None leaves stream "
+"untouched.     STDOUT redirects to stdout target and returns None as "
+"stderr value.     Otherwise redirect to file-like object stderr."
+msgstr ""
+
+#: conda.cli.python_api.run_command:11 of
+msgid ""
+"special instructions for programmatic overrides use_exception_handler: "
+"defaults to False.  False will let the code calling"
+msgstr ""
+
+#: conda.cli.python_api.run_command:13 of
+msgid ""
+"`run_command` handle all exceptions.  True won't raise when an exception "
+"has occured, and instead give a non-zero return code"
+msgstr ""
+
+#: conda.cli.python_api.run_command:15 of
+msgid ""
+"search_path: an optional non-standard search path for configuration "
+"information"
+msgstr ""
+
+#: conda.cli.python_api.run_command:16 of
+msgid "that overrides the default SEARCH_PATH"
+msgstr ""
+
+#: conda.cli.python_api.run_command:18 of
+msgid "stdout: Define capture behavior for stream sys.stdout. Defaults to STRING."
+msgstr ""
+
+#: conda.cli.python_api.run_command:18 of
+msgid ""
+"STRING captures as a string.  None leaves stream untouched. Otherwise "
+"redirect to file-like object stdout."
+msgstr ""
+
+#: conda.cli.python_api.run_command:23 of
+msgid "stderr: Define capture behavior for stream sys.stderr. Defaults to STRING."
+msgstr ""
+
+#: conda.cli.python_api.run_command:21 of
+msgid ""
+"STRING captures as a string.  None leaves stream untouched. STDOUT "
+"redirects to stdout target and returns None as stderr value. Otherwise "
+"redirect to file-like object stderr."
+msgstr ""
+
+#: conda.cli.python_api.run_command:26 of
+msgid "Returns: a tuple of stdout, stderr, and return_code."
+msgstr ""
+
+#: conda.cli.python_api.run_command:26 of
+msgid ""
+"stdout, stderr are either strings, None or the corresponding file-like "
+"function argument."
+msgstr ""
+
+#: conda.cli.python_api.run_command:29 of
+msgid "Examples"
+msgstr ""
+
+#: conda.cli.python_api.run_command:30 of
+msgid ""
+">>  run_command(Commands.CREATE, \"-n\", \"newenv\", \"python=3\", "
+"\"flask\","
+msgstr ""
+
+#: conda.cli.python_api.run_command:31 of
+msgid "use_exception_handler=True)"
+msgstr ""
+
+#: conda.cli.python_api.run_command:32 of
+msgid ""
+">>  run_command(Commands.CREATE, \"-n\", \"newenv\", \"python=3\", "
+"\"flask\") >>  run_command(Commands.CREATE, [\"-n\", \"newenv\", "
+"\"python=3\", \"flask\"], search_path=())"
+msgstr ""
+
