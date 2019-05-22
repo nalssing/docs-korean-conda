@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:3
 msgid "Using conda with Travis CI"
-msgstr ""
+msgstr "conda 와 Travis CI 사용하기"
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:10
 msgid ""
@@ -32,16 +32,24 @@ msgid ""
 "build. Using conda also lets you test the building of conda recipes on "
 "Travis."
 msgstr ""
+"Travis CI를 이미 사용하고 있다면, apt-get와 pip를 사용하여 패키지를 설치하는"
+"대신 conda를 사용하는 것이 좋습니다. Travis가 제공 한 데비안 저장소에는 모든 버전의 "t
+"Python 용 패키지가 포함되어 있지 않거나 신속하게 업데이트되지 않을 수도 있습니다. "
+"이러한 패키지를 pip와 함께 설치하는 것은 오랜 시간이 걸릴 수 있으므로 Travis가 각"
+"빌드에서 허용하는 50 분의 상당 부분을 소비 할 수 있으므로 바람직하지 않을 수도 있습니다."
+"conda 를 사용하면 conda 빌드 recipes를 Travis 에서 테스트 할 수 있습니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:19
 msgid ""
 "This page describes how to use conda to test a Python package on Travis "
 "CI. However, you can use conda with any language, not just Python."
 msgstr ""
+"이 페이지는 conda를 사용하여 Travis CI에서 Python 패키지를 테스트하는 방법을 설명합니다."
+"그러나 Python뿐 아니라 모든 언어에서 conda를 사용할 수 있습니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:25
 msgid "The .travis.yml file"
-msgstr ""
+msgstr ".travis.yml 파일"
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:27
 msgid ""
@@ -49,6 +57,8 @@ msgid ""
 " use `Miniconda <https://conda.io/miniconda.html>`_ for a project that "
 "supports Python 2.7, 3.5 and 3.6:"
 msgstr ""
+"다음 코드는 Python 2.7, 3.5, 및 3.6을 지원하는 `Miniconda <https://conda.io/miniconda.html>`_"
+"프로젝트에서 ``.travis.yml``파일을 변경하는 방법을 보여줍니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:65
 msgid ""
@@ -56,36 +66,41 @@ msgid ""
 "`Building a Python Project <http://docs.travis-"
 "ci.com/user/languages/python/#Examples>`_."
 msgstr ""
+"기본적인 Travis CI를 구성하는 방법에대해 더 알아볼려면, "
+"`Building a Python Project <http://docs.travis-"
+"ci.com/user/languages/python/#Examples>`_ 를 참조해보십시오."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:71
 msgid "Supporting packages that do not have official builds"
-msgstr ""
+msgstr "공식 빌드가 없는 패키지 지원"
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:73
 msgid "To support a package that does not have official Anaconda builds:"
-msgstr ""
+msgstr "Anaconda 공식 빌드가 없는 패키지를 지원하기 위해 다름과 같은 절차를 밟으십시오.:"
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:75
 msgid "Build the package yourself."
-msgstr ""
+msgstr "사용자 패키지를 빌드하십시오."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:77
 msgid "Add it to an `Anaconda.org <http://Anaconda.org>`_ channel."
-msgstr ""
+msgstr "빌드한 패키지를 `Anaconda.org <http://Anaconda.org>`_ 채널(channel) 에 추가하십시오."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:79
 msgid ""
 "Add the following line to the install steps in ``.travis.yml`` so that it"
 " finds the packages on that channel:"
 msgstr ""
+"다음과 같은 행을 추가하여 ``.travis.yml`` 에서 해당 채널에 있는 패키지를"
+"찾을 수 있게 합니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:88
 msgid "Replace ``your_Anaconda_dot_org_username`` with your user name."
-msgstr ""
+msgstr "``your_Anaconda_dot_org_username``을 사용자 이름(user name)으로 바꿉니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:93
 msgid "Building a conda recipe"
-msgstr ""
+msgstr "conda 레시피(recipe) 빌드하기"
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:95
 msgid ""
@@ -93,18 +108,20 @@ msgid ""
 "use conda build in Travis, so the building of your recipe is tested as "
 "well."
 msgstr ""
+"프로젝트에 대한 공식 콘도 패키지를 지원한다면 "
+"Travis에 conda 빌드를 사용하여 레시피(recipe) 구축을 테스트 할 수 있습니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:99
 msgid "Include the conda recipe in the same directory as your source code."
-msgstr ""
+msgstr "conda 레시피(recipe)를 소스코드와 같은 폴더에 추가합니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:102
 msgid "In your ``.travis.yml`` file, replace the following line:"
-msgstr ""
+msgstr "``.travis.yml`` 파일안에 해당 라인을 바꿉니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:108
 msgid "with these lines:"
-msgstr ""
+msgstr "다음 줄도 바꿉니다."
 
 #: ../../source/user-guide/tasks/use-conda-with-travis-ci.rst:118
 msgid "AppVeyor"
