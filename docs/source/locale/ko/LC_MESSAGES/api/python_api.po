@@ -25,7 +25,7 @@ msgstr ""
 msgid ""
 "Runs a conda command in-process with a given set of command-line "
 "interface arguments."
-msgstr ""
+msgstr "command-line 명령어와 arguments를 입력받아서 conda command 를 실행합니다."
 
 #: conda.cli.python_api.run_command:4 of
 msgid "Differences from the command-line interface:"
