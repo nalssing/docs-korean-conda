@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../source/admin.rst:2
 msgid "admin"
-msgstr ""
+msgstr "관리자"
 

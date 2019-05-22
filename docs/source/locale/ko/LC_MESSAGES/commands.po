@@ -251,6 +251,8 @@ msgid ""
 "\\* ``conda activate`` only works on conda 4.6 and later versions. For "
 "conda versions prior to 4.6, type:"
 msgstr ""
+"\\* ``conda activate`` 명령어는 conda 4.6 이상 버젼에서 작동합니다. "
+"conda 4.6 미만 버젼에서는, 다음과 같은 명령어를 사용:"
 
 #: ../../source/commands.rst:60
 msgid "Windows: ``activate``"

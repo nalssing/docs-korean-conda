@@ -27,10 +27,12 @@ msgid ""
 "environments with names starting with _ (underscore). That change was "
 "made, in part, so that conda can be used as a Python library."
 msgstr ""
+"conda 가 Python 라이브러로 사용되기 위해서 conda 4.4 이상부터, "
+"_ (underscore)로 시작되는 환경 이름은 사용할 수 없습니다."
 
 #: ../../source/api/index.rst:6
 msgid "There are three supported public modules. We support:"
-msgstr ""
+msgstr "아래 3 항목은 우리가 공식적으로 지원하는 모듈들입니다."
 
 #: ../../source/api/index.rst:8
 msgid "import conda.cli.python_api"
@@ -50,12 +52,17 @@ msgid ""
 "guaranteed to be stable throughout the lifetime of a feature release "
 "series--i.e. minor version number."
 msgstr ""
+"첫번째, 두번째 모듈은 매우 긴 시간동안 안정성(stability)을 가지고 있습니다. 세번째 모듈은 "
+"feature release series의 라이프타임 동안만 안정성(stability)를 보장합니다."
+"예: minor version number."
 
 #: ../../source/api/index.rst:14
 msgid ""
 "As of conda 4.5, we do not support ``pip install conda``. However, we are"
 " considering that as a supported bootstrap method in the future."
 msgstr ""
+"conda 4.5 버전부터 ``pip install conda`` 명령어를 지원하지 않습니다. 하지만,"
+"향후 부트스트랩 메소드(bootstrap method)를 지원하는 것을 고려하고 있습니다."
 
 #: ../../source/api/index.rst:17
 msgid "Contents:"
