@@ -43,7 +43,7 @@ msgstr "실행 가능한(executable) 프로그램들과 다른 컴포넌트들"
 
 #: ../../source/user-guide/concepts/packages.rst:19
 msgid "metadata under the ``info/`` directory"
-msgstr "``info/`` 디렉토리(directory) 밑에 있는 메타데이터"
+msgstr "``info/`` 디렉토리(directory) 아래 있는 메타데이터"
 
 #: ../../source/user-guide/concepts/packages.rst:20
 msgid ""
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "심볼 링크를 포함한 파일들만 콘다 패키지입니다."
 "폴더(directory)는 포함되지 않습니다. 폴더는 필요에 따라 생성되고 삭제되지만, "
-"tar 아카이브(archive)에서 직접적으로 빈 폴더를 만들 수 없습니다."
+"tar 아카이브에서 직접적으로 빈 폴더를 만들 수 없습니다."
 
 #: ../../source/user-guide/concepts/packages.rst:32
 msgid "Using packages"
@@ -89,7 +89,7 @@ msgid ""
 "You may build a package after `installing conda build "
 "<https://docs.conda.io/projects/conda-build/en/latest/index.html>`_"
 msgstr ""
-"``Conda 빌드 설치하기 <https://docs.conda.io/projects/conda-build/en/latest/index.html>`_ 를 한 후"
+"`Conda 빌드 설치하기 <https://docs.conda.io/projects/conda-build/en/latest/index.html>`_ 를 한 후"
 "conda 패키지를 빌드할 수 있습니다"
 
 #: ../../source/user-guide/concepts/packages.rst:57
@@ -110,7 +110,7 @@ msgstr "info 에는 패키지 메타데이터가 들어있습니다"
 
 #: ../../source/user-guide/concepts/packages.rst:82
 msgid "Link and unlink scripts"
-msgstr "스크립트 링크 및 링크해제"
+msgstr "스크립트 링크 및 링크 해제"
 
 #: ../../source/user-guide/concepts/packages.rst:84
 msgid ""
@@ -119,7 +119,7 @@ msgid ""
 "unlink scripts <https://docs.conda.io/projects/conda-"
 "build/en/latest/resources/link-scripts.html>`_."
 msgstr ""
-"링크하기 전, 혹은 링크해제 한 후 특정 스크립트들 실행 시킬 수 있습니다."
+"링크하기 전, 혹은 링크 해제 한 후 특정 스크립트들 실행 시킬 수 있습니다."
 "더 많은 정보를 알아보시려면, 다음 링크를 참조해보십시오. `Adding pre-link, post-link and pre-"
 "unlink scripts <https://docs.conda.io/projects/conda-"
 "build/en/latest/resources/link-scripts.html>`_."
@@ -134,8 +134,8 @@ msgid ""
 "about package metadata, repository structure and index, and package match"
 " specifications at :doc:`Package specifications <../concepts/pkg-specs>`."
 msgstr ""
-"어떻게 :ref:`패키지 관리 <managing-pkgs>`하는지 알아보십시오. 그리고 "
+"어떻게 :ref:`패키지 관리 <managing-pkgs>` 하는지 알아보십시오. 그리고 "
 "패키지 메타데이터, 레포지토리 구조와 인덱스, 패키지 일치 사양 에 대해 알아보시려면"
-":doc:`Package specifications <../concepts/pkg-specs>`를 참조해 보십시오."
+" :doc:`Package specifications <../concepts/pkg-specs>` 를 참조해 보십시오."
 
 
