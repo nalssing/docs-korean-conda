@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/user-guide/getting-started.rst:3
 msgid "Getting started with conda"
-msgstr ""
+msgstr "conda 시작하기"
 
 #: ../../source/user-guide/getting-started.rst:7
 msgid ""

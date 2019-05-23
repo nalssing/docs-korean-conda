@@ -19,15 +19,17 @@ msgstr ""
 
 #: ../../source/user-guide/concepts/index.rst:3
 msgid "Concepts"
-msgstr ""
+msgstr "개념들"
 
 #: ../../source/user-guide/concepts/index.rst:5
 msgid "Explore the links to learn more about conda foundations."
-msgstr ""
+msgstr "conda의 기초를 배우려면 아래의 링크를 참조하십시오."
 
 #: ../../source/user-guide/concepts/index.rst:16
 msgid ""
 "When you're comfortable with the conda concepts, learn how to :doc:`get "
 "started using conda <../getting-started>`."
 msgstr ""
+"conda 개념에 익숙해 졌다면, 어떻게 :doc:`conda 를 시작 <../getting-started>` "
+"하는지 알아보십시오."
 

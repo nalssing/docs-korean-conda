@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/index.rst:3
 msgid "Conda"
-msgstr "콘다"
+msgstr "Conda"
 
 #: ../../source/index.rst:13
 msgid ""

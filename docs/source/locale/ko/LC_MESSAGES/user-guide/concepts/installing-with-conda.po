@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:3
 msgid "Installing with conda"
-msgstr ""
+msgstr "Conda 로 설치하기"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:11
 msgid "To install conda packages, in the terminal or an Anaconda Prompt, run::"
-msgstr ""
+msgstr "conda 패키지를 설치하기 위해 터미널 혹은 Anaconda Prompt에서 아래 행을 실행하십시오:"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:16
 msgid ""
@@ -34,32 +34,40 @@ msgid ""
 "downloading and extracting the artifact and its dependencies---all with "
 "the single ``conda install [packagename]`` command."
 msgstr ""
+"설치 프로세스가 진행하는 동안, 지정한 환경으로 파일이 추출되며, 지정한 "
+"환경이 없을 경우 현재 환경이 기본값으로 설정됩니다."
+"conda 패키지 파일을 환경에 설치하는 것은 환경의 디렉토리를 변경한 다음, 그 파일과"
+"모든 의존성(dependencies)들을 다운로드하여 단일 명령으로 추출 "
+"``conda install [packagename]`` 하는 것으로 생각할 수 있습니다."
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:24
 msgid ""
 "Read more about :doc:`conda environments and directory structure "
 "<../concepts/environments>`."
 msgstr ""
+":doc:`conda environments and directory structure <../concepts/environments>` 을 "
+"참조해 보십시오."
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:26
 msgid ""
 "When you ``conda install`` a package that exists in a channel and has no "
 "dependencies, conda:"
 msgstr ""
+"채널에 존재하고 종속성이 없는 패키지를 ``conda install`` 할때:"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:28
 msgid "looks at your configured channels (in priority)"
-msgstr ""
+msgstr "구성된 채널들을 (우선순위대로) 살펴봅니다"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:30
 msgid "reaches out to the repodata associated with your channels/platform"
-msgstr ""
+msgstr "채널/플랫폼과 관련된 repodata에 도달합니다"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:32
 msgid "parses repodata to search for the package"
-msgstr ""
+msgstr "패키지 검색을 위해 repodata를 파싱합니다"
 
 #: ../../source/user-guide/concepts/installing-with-conda.rst:34
 msgid "once the package is found, conda pulls it down and installs"
-msgstr ""
+msgstr "패키지가 발견되면, conda는 그것을 다운로드 하고 설치합니다"
 
