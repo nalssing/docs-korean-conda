@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/user-guide/concepts/environments.rst:3
 msgid "Conda environments"
-msgstr ""
+msgstr "Conda 환경(environments)"
 
 #: ../../source/user-guide/concepts/environments.rst:5
 msgid ""
@@ -33,10 +33,15 @@ msgid ""
 "``environment.yaml`` file. For more information, see :doc:`../tasks"
 "/manage-environments`."
 msgstr ""
+"conda 환경은 사용자가 설치 한 특정 conda 패키지 콜렉션이 들어있는 디렉토리입니다. "
+"예를 들어, NumPy 1.7 및 의존성이있는 환경 하나와 레거시 테스트를 위해 NumPy 1.6이있는 다른 환경이 있을 수 있습니다. "
+"하나의 환경을 변경하면 다른 환경에 영향을주지 않습니다. 하나의 환경을 활성화 또는 비활성화 하여 쉽게 환경을 변경할 수 있습니다."
+"또한 ``environment.yaml`` 파일 사본을 제공하여 사용자 환경을 다른 사용자와 공유 할 수 있습니다"
+"자세한 내용은 환경 관리를 참조하십시오 .:doc:`../tasks/manage-environments`."
 
 #: ../../source/user-guide/concepts/environments.rst:18
 msgid "Conda directory structure"
-msgstr ""
+msgstr "Conda 디렉토리 구조"
 
 #: ../../source/user-guide/concepts/environments.rst:21
 msgid "``ROOT_DIR``"
@@ -44,11 +49,11 @@ msgstr ""
 
 #: ../../source/user-guide/concepts/environments.rst:22
 msgid "The directory that Anaconda or Miniconda was installed into."
-msgstr ""
+msgstr "Anaconda 혹은 Miniconda 가 설치된 디렉토리"
 
 #: ../../source/user-guide/concepts/environments.rst:24
 msgid "EXAMPLES:"
-msgstr ""
+msgstr "예:"
 
 #: ../../source/user-guide/concepts/environments.rst:32
 msgid "``/pkgs``"
@@ -60,6 +65,9 @@ msgid ""
 "packages, ready to be linked in conda environments. Each package resides "
 "in a subdirectory corresponding to its canonical name."
 msgstr ""
+"PKGS_DIR 이라고도 참조됩니다. 이 디렉토리는 conda 환경들과 링크될 준비가 되어있는"
+"압축이 해제된 패키지들을 담고 있습니다. 각각의 패키지는 정식 이름에 해당하는 하위 "
+"디렉토리 안에 존재합니다."
 
 #: ../../source/user-guide/concepts/environments.rst:40
 msgid "``/envs``"
@@ -67,11 +75,11 @@ msgstr ""
 
 #: ../../source/user-guide/concepts/environments.rst:42
 msgid "The system location for additional conda environments to be created."
-msgstr ""
+msgstr "추가적인 conda 환경들이 생성되어질 시스템 경로입니다."
 
 #: ../../source/user-guide/concepts/environments.rst:45
 msgid "The following subdirectories comprise the default Anaconda environment:"
-msgstr ""
+msgstr "아래의 하위 디렉토리가 기본 anaconda 환경으로 설치됩니다:"
 
 #: ../../source/user-guide/concepts/environments.rst:48
 msgid "``/bin``"
@@ -94,4 +102,5 @@ msgid ""
 "Other conda environments usually contain the same subdirectories as the "
 "default environment."
 msgstr ""
+"다른 conda 환경에는 보통 기본 환경과 동일한 서브 디렉토리 구조를 가지고 있습니다."
 
