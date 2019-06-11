@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../source/installation.rst:2
 msgid "installation"
-msgstr ""
+msgstr "설치하기"
 
