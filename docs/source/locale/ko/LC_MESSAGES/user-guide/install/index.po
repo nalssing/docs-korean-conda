@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/user-guide/install/index.rst:3
 msgid "Installation"
-msgstr ""
+msgstr "설치하기"
 
 #: ../../source/user-guide/install/index.rst:9
 msgid ""
@@ -29,6 +29,11 @@ msgid ""
 "you prefer to have conda plus over 720 open source packages, install "
 "Anaconda."
 msgstr ""
+"가장 빨리 conda를 :doc:`사용 <download>`\\하는 방법은 "
+":ref:`Miniconda <miniconda-glossary>`\\를 받는 것이다. "
+"Miniconda는 :ref:`Anaconda <anaconda-glossary>`\\의 축소 버전으로 conda와 "
+"conda의 의존성만 포함하고 있다. "
+"720개 이상의 오픈 소스 패키지를 같이 사용하고 싶다면 Anaconda를 설치한다."
 
 #: ../../source/user-guide/install/index.rst:15
 msgid ""
@@ -37,6 +42,9 @@ msgid ""
 "installation. You can also install Anaconda system wide, which does "
 "require administrator permissions."
 msgstr ""
+"Anaconda는 로컬 사용자 계정으로 설치할 것을 추천한다. "
+"이는 관리자 권한을 요구하지 않으며 가장 강력한 설치 방법이다. "
+"Anaconda를 시스템 전체에 설치할 수도 있으며 이는 관리자 권한을 필요로 한다."
 
 #: ../../source/user-guide/install/index.rst:20
 msgid ""
@@ -44,30 +52,32 @@ msgid ""
 "see the instructions for `installing Anaconda "
 "<http://docs.continuum.io/anaconda/install.html>`_."
 msgstr ""
+"윈도우와 맥OS에서의 그래픽 인스톨러 사용법은 "
+"`Anaconda 설치하기 <http://docs.continuum.io/anaconda/install.html>`_\\를 참조한다."
 
 #: ../../source/user-guide/install/index.rst:26
 msgid "System requirements"
-msgstr ""
+msgstr "시스템 요구사항"
 
 #: ../../source/user-guide/install/index.rst:28
 msgid "32- or 64-bit computer."
-msgstr ""
+msgstr "32, 혹은 64비트 컴퓨터."
 
 #: ../../source/user-guide/install/index.rst:30
 msgid "For Miniconda---400 MB disk space."
-msgstr ""
+msgstr "Miniconda의 경우---400 MB의 디스크 공간."
 
 #: ../../source/user-guide/install/index.rst:32
 msgid "For Anaconda---Minimum 3 GB disk space to download and install."
-msgstr ""
+msgstr "Anaconda의 경우---다운로드 및 설치를 위해 최소 3 GB의 디스크 공간."
 
 #: ../../source/user-guide/install/index.rst:35
 msgid "Windows, macOS or Linux."
-msgstr ""
+msgstr "윈도우, 맥OS, 리눅스."
 
 #: ../../source/user-guide/install/index.rst:37
 msgid "Python 2.7, 3.4, 3.5 or 3.6."
-msgstr ""
+msgstr "파이썬 2.7, 3.4, 3.5 or 3.6."
 
 #: ../../source/user-guide/install/index.rst:38
 msgid "pycosat."
@@ -86,30 +96,31 @@ msgid ""
 "You do not need administrative or root permissions to install Anaconda if"
 " you select a user-writable install location."
 msgstr ""
+"사용자에게 쓰기 권한이 있는 위치에 Anaconda를 설치한다면 관리자 권한이 필요없다."
 
 #: ../../source/user-guide/install/index.rst:49
 msgid "Regular installation"
-msgstr ""
+msgstr "일반적인 경우에 설치하기"
 
 #: ../../source/user-guide/install/index.rst:51
 msgid "Follow the instructions for your operating system:"
-msgstr ""
+msgstr "운영체제에 따라 다음의 안내사항대로 진행한다."
 
 #: ../../source/user-guide/install/index.rst:53
 msgid ":doc:`Windows <windows>`."
-msgstr ""
+msgstr ":doc:`윈도우 <windows>`."
 
 #: ../../source/user-guide/install/index.rst:54
 msgid ":doc:`macOS <macos>`."
-msgstr ""
+msgstr ":doc:`맥OS <macos>`."
 
 #: ../../source/user-guide/install/index.rst:55
 msgid ":doc:`Linux <linux>`."
-msgstr ""
+msgstr ":doc:`리눅스 <linux>`."
 
 #: ../../source/user-guide/install/index.rst:59
 msgid "Installing in silent mode"
-msgstr ""
+msgstr "묵시적으로 설치하기"
 
 #: ../../source/user-guide/install/index.rst:61
 msgid ""
@@ -117,28 +128,31 @@ msgid ""
 "Miniconda or Anaconda for deployment or testing or building services such"
 " as Travis CI and AppVeyor."
 msgstr ""
+"배포, 테스트, 혹은 Travis CI, AppVeyor 같은 빌드 서비스에서 Miniconda나 Anaconda를 사용하기 위해 "
+":ref:`묵시적 설치법 <silent-mode-glossary>`\\을 사용할 수 있다."
 
 #: ../../source/user-guide/install/index.rst:65
 msgid "Follow the silent-mode instructions for your operating system:"
-msgstr ""
+msgstr "운영체제에 따라 묵시적 설치 안내사항대로 진행한다."
 
 #: ../../source/user-guide/install/index.rst:67
 msgid ":ref:`Windows <install-win-silent>`."
-msgstr ""
+msgstr ":ref:`윈도우 <install-win-silent>`."
 
 #: ../../source/user-guide/install/index.rst:68
 msgid ":ref:`macOS <install-macos-silent>`."
-msgstr ""
+msgstr ":ref:`맥OS <install-macos-silent>`."
 
 #: ../../source/user-guide/install/index.rst:69
 msgid ":ref:`Linux <install-linux-silent>`."
-msgstr ""
+msgstr ":ref:`리눅스 <install-linux-silent>`."
 
 #: ../../source/user-guide/install/index.rst:73
 msgid ""
 "Installing conda on a system that has other Python installations or "
 "packages"
 msgstr ""
+"파이썬이 설치된 시스템에 conda 설치하기"
 
 #: ../../source/user-guide/install/index.rst:75
 msgid ""
@@ -149,6 +163,10 @@ msgid ""
 "NumPy, you do not need to uninstall, remove, or change any of them before"
 " using conda."
 msgstr ""
+"conda를 사용하기 위해 기존에 설치한 파이썬을 삭제하지 않아도 된다. "
+"시스템이 이미 파이썬을 포함하고 있거나 맥OS의 homebrew 의 방법으로 소스에서 파이썬을 설치했고 "
+"pip를 통해 pandas나 NumPy 등의 패키지를 시스템에 전역으로 설치했더라도 "
+"conda를 사용하기 위해 삭제, 제거, 혹은 이를 변경하지 않아도 된다."
 
 #: ../../source/user-guide/install/index.rst:82
 msgid ""
@@ -156,30 +174,32 @@ msgid ""
 "conda installation of Python to your PATH environment variable. There is "
 "no need to set the PYTHONPATH environment variable."
 msgstr ""
+"Anaconda나 Miniconda를 설치한 뒤에 인스톨러가 conda로 설치한 python 실행파일을 PATH 환경변수에 추가한다. "
+"PYTHONPATH 환경 변수는 설정하지 않아도 된다."
 
 #: ../../source/user-guide/install/index.rst:87
 msgid "To see if the conda installation of Python is in your PATH variable:"
-msgstr ""
+msgstr "conda로 설치한 파이썬이 PATH 변수에 들어있는지 확인하기 위해"
 
 #: ../../source/user-guide/install/index.rst:90
 msgid "On macOS and Linux, open the terminal and run---``echo $PATH``."
-msgstr ""
+msgstr "맥OS나 리눅스에서는 터미널을 열고 다음 명령어를 실행한다---``echo $PATH``."
 
 #: ../../source/user-guide/install/index.rst:92
 msgid "On Windows, open an Anaconda Prompt and run---``echo %PATH%``."
-msgstr ""
+msgstr "윈도우에서는 Anaconda Prompt를 열고 다음 명령어를 실행한다---``echo %PATH%``."
 
 #: ../../source/user-guide/install/index.rst:94
 msgid "To see which Python installation is currently set as the default:"
-msgstr ""
+msgstr "파이썬 설치판 중 기본값으로 설정된 위치를 확인하기 위해서"
 
 #: ../../source/user-guide/install/index.rst:96
 msgid "On macOS and Linux, open the terminal and run---``which python``."
-msgstr ""
+msgstr "맥OS나 리눅스에서는 터미널을 열고 다음 명령어를 실행한다---``which python``."
 
 #: ../../source/user-guide/install/index.rst:98
 msgid "On Windows, open an Anaconda Prompt and run---``where python``."
-msgstr ""
+msgstr "윈도우에서는 Anaconda Prompt를 열고 다음 명령어를 실행한다---``where python``."
 
 #: ../../source/user-guide/install/index.rst:100
 msgid ""
@@ -187,4 +207,5 @@ msgid ""
 " their version numbers, in your terminal window or an Anaconda Prompt, "
 "run ``conda list``."
 msgstr ""
-
+"현재 conda 환경에서 패키지의 설치여부와 버전을 확인하기 위해서는 터미널이나 Anaconda Prompt에서 "
+"다음 명령어를 실행한다 ``conda list``."
